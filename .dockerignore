@@ -1,0 +1,6 @@
+.venv
+out
+runs
+datasets
+*.pt
+.git

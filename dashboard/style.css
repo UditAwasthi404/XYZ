@@ -1,0 +1,40 @@
+:root{--bg:#0f1420;--panel:#171e2e;--line:#253049;--text:#e6ebf5;--mute:#8a96b0;--accent:#4f8cff;
+--high:#ff4d5e;--med:#ff9f1a;--low:#f5c542;--ok:#2ecc71}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 24px;border-bottom:1px solid var(--line);background:#121827}
+.brand{font-weight:700;font-size:18px}.brand small{color:var(--mute);font-weight:400;margin-left:8px;font-size:13px}.logo{color:var(--accent)}
+.live{color:var(--mute);display:flex;gap:8px;align-items:center}.dot{width:9px;height:9px;border-radius:50%;background:#666}.dot.on{background:var(--ok);box-shadow:0 0 8px var(--ok)}
+main{padding:20px 24px;max-width:1500px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.card label{display:block;color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.card b{font-size:30px;display:inline-block;margin-top:4px}.card .sub{color:var(--mute);margin-left:8px}
+.grid{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(320px,1fr);gap:18px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+h2{font-size:15px;margin:0}
+form{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+select,input[type=file]{background:#0f1525;color:var(--text);border:1px solid var(--line);border-radius:8px;padding:7px}
+button{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer}
+button:hover{filter:brightness(1.1)}button:disabled{opacity:.5;cursor:wait}
+.samples{margin:12px 0;color:var(--mute);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.samples button{background:#202a40;color:var(--text);font-weight:500;padding:6px 10px;font-size:12px;border:1px solid var(--line)}
+.viewer{background:#0b0f19;border-radius:10px;min-height:340px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.viewer img{width:100%;display:block}.empty{color:var(--mute)}
+.summary{margin-top:10px;color:var(--mute)}.summary b{color:var(--text)}
+.legend{margin-top:8px;color:var(--mute);font-size:12px;display:flex;gap:14px;align-items:center}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:-8px}.g{background:#3cbe3c}.r{background:#e62828}.o{background:#ff8c00}
+.tabs button{background:transparent;color:var(--mute);padding:5px 10px;border:1px solid var(--line)}.tabs button.on{background:#202a40;color:var(--text)}
+#alerts{list-style:none;margin:12px 0 0;padding:0;max-height:640px;overflow:auto}
+#alerts li{border:1px solid var(--line);border-left:4px solid var(--mute);border-radius:10px;padding:10px 12px;margin-bottom:10px;display:flex;gap:10px;align-items:flex-start;animation:pop .35s ease}
+#alerts li.HIGH{border-left-color:var(--high)}#alerts li.MEDIUM{border-left-color:var(--med)}#alerts li.LOW{border-left-color:var(--low)}
+#alerts li.resolved{opacity:.65;border-left-color:var(--ok)}
+.al-main{flex:1}.al-title{font-weight:600}.al-meta{color:var(--mute);font-size:12px}
+.badge{font-size:11px;font-weight:700;padding:2px 7px;border-radius:20px;margin-right:6px}
+.badge.HIGH{background:#ff4d5e22;color:var(--high)}.badge.MEDIUM{background:#ff9f1a22;color:var(--med)}.badge.LOW{background:#f5c54222;color:var(--low)}.badge.ok{background:#2ecc7122;color:var(--ok)}
+.al-actions{display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.al-actions a{color:var(--accent);font-size:12px}.al-actions button{padding:5px 10px;font-size:12px}
+.toast{position:fixed;right:20px;bottom:20px;background:#202a40;border:1px solid var(--line);padding:10px 14px;border-radius:10px;animation:pop .3s}
+@keyframes pop{from{transform:translateY(6px);opacity:0}to{transform:none;opacity:1}}
+@media(max-width:1000px){.grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}

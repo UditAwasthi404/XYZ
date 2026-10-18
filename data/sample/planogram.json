@@ -1,0 +1,251 @@
+{
+  "store_id": "DEMO-001",
+  "bays": [
+    {
+      "shelf_id": "A1-B1",
+      "aisle": "A1",
+      "levels": [
+        {
+          "shelf": 1,
+          "y_range": [
+            50,
+            235
+          ],
+          "slots": [
+            {
+              "slot_id": "A1-B1-L1-S1",
+              "sku": "COLA-330",
+              "x_range": [
+                40,
+                440
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B1-L1-S2",
+              "sku": "LIME-330",
+              "x_range": [
+                440,
+                840
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B1-L1-S3",
+              "sku": "AQUA-1L",
+              "x_range": [
+                840,
+                1240
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            }
+          ]
+        },
+        {
+          "shelf": 2,
+          "y_range": [
+            280,
+            465
+          ],
+          "slots": [
+            {
+              "slot_id": "A1-B1-L2-S1",
+              "sku": "ORNG-500",
+              "x_range": [
+                40,
+                440
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B1-L2-S2",
+              "sku": "GRAP-250",
+              "x_range": [
+                440,
+                840
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B1-L2-S3",
+              "sku": "CHIP-050",
+              "x_range": [
+                840,
+                1240
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            }
+          ]
+        },
+        {
+          "shelf": 3,
+          "y_range": [
+            510,
+            695
+          ],
+          "slots": [
+            {
+              "slot_id": "A1-B1-L3-S1",
+              "sku": "COLA-330",
+              "x_range": [
+                40,
+                440
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B1-L3-S2",
+              "sku": "ORNG-500",
+              "x_range": [
+                440,
+                840
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B1-L3-S3",
+              "sku": "AQUA-1L",
+              "x_range": [
+                840,
+                1240
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shelf_id": "A1-B2",
+      "aisle": "A1",
+      "levels": [
+        {
+          "shelf": 1,
+          "y_range": [
+            50,
+            235
+          ],
+          "slots": [
+            {
+              "slot_id": "A1-B2-L1-S1",
+              "sku": "CHIP-050",
+              "x_range": [
+                40,
+                440
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B2-L1-S2",
+              "sku": "COLA-330",
+              "x_range": [
+                440,
+                840
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B2-L1-S3",
+              "sku": "GRAP-250",
+              "x_range": [
+                840,
+                1240
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            }
+          ]
+        },
+        {
+          "shelf": 2,
+          "y_range": [
+            280,
+            465
+          ],
+          "slots": [
+            {
+              "slot_id": "A1-B2-L2-S1",
+              "sku": "AQUA-1L",
+              "x_range": [
+                40,
+                440
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B2-L2-S2",
+              "sku": "LIME-330",
+              "x_range": [
+                440,
+                840
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B2-L2-S3",
+              "sku": "ORNG-500",
+              "x_range": [
+                840,
+                1240
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            }
+          ]
+        },
+        {
+          "shelf": 3,
+          "y_range": [
+            510,
+            695
+          ],
+          "slots": [
+            {
+              "slot_id": "A1-B2-L3-S1",
+              "sku": "CHIP-050",
+              "x_range": [
+                40,
+                440
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B2-L3-S2",
+              "sku": "AQUA-1L",
+              "x_range": [
+                440,
+                840
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            },
+            {
+              "slot_id": "A1-B2-L3-S3",
+              "sku": "LIME-330",
+              "x_range": [
+                840,
+                1240
+              ],
+              "expected_facings": 4,
+              "low_stock_threshold": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

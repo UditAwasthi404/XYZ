@@ -1,0 +1,18 @@
+# SKU-110K (Goldman et al., CVPR 2019) in Ultralytics format.
+# ~11 GB, 11,762 dense retail shelf images, single class 'object'.
+# Ultralytics ships an auto-download+convert script for this dataset; it runs
+# on first `yolo train data=detector/sku110k.yaml` (we do NOT download it in the repo).
+path: ../datasets/SKU-110K
+train: train.txt   # 8219 images
+val: val.txt       # 588 images
+test: test.txt     # 2936 images
+
+names:
+  0: object
+  # To add empty-facing detection, label gaps on a few hundred shelf images
+  # (e.g. CVAT/Roboflow) and append:
+  # 1: gap
+  # 2: price_tag
+
+# Download script (official Ultralytics): reuse their SKU-110K.yaml
+download: https://raw.githubusercontent.com/ultralytics/ultralytics/main/ultralytics/cfg/datasets/SKU-110K.yaml

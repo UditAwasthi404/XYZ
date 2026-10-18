@@ -1,0 +1,22 @@
+[
+  {
+    "image": "A1-B1_t0.png",
+    "shelf_id": "A1-B1"
+  },
+  {
+    "image": "A1-B1_t1_restock.png",
+    "shelf_id": "A1-B1"
+  },
+  {
+    "image": "A1-B2_t0.png",
+    "shelf_id": "A1-B2"
+  },
+  {
+    "image": "A1-B2_t1_partial.png",
+    "shelf_id": "A1-B2"
+  },
+  {
+    "image": "A1-B2_t2_restock.png",
+    "shelf_id": "A1-B2"
+  }
+]

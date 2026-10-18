@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "sku": "COLA-330",
+      "name": "Cola 330ml",
+      "reference": "COLA-330.png",
+      "velocity": 5
+    },
+    {
+      "sku": "ORNG-500",
+      "name": "Orange Juice 500ml",
+      "reference": "ORNG-500.png",
+      "velocity": 4
+    },
+    {
+      "sku": "CHIP-050",
+      "name": "Masala Chips 50g",
+      "reference": "CHIP-050.png",
+      "velocity": 5
+    },
+    {
+      "sku": "LIME-330",
+      "name": "Lime Soda 330ml",
+      "reference": "LIME-330.png",
+      "velocity": 3
+    },
+    {
+      "sku": "AQUA-1L",
+      "name": "Mineral Water 1L",
+      "reference": "AQUA-1L.png",
+      "velocity": 4
+    },
+    {
+      "sku": "GRAP-250",
+      "name": "Grape Drink 250ml",
+      "reference": "GRAP-250.png",
+      "velocity": 2
+    }
+  ]
+}

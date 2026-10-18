@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+out/
+runs/
+datasets/
+*.pt
+*.onnx
+*.db
+.env
+.DS_Store
